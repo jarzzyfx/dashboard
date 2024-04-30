@@ -3,10 +3,7 @@ import { FC } from "react";
 interface LastMonthProps {}
 
 export const LastMonth: FC<LastMonthProps> = () => {
-  let current = 0;
   const Max = 26;
-
-  const incM: () => void = (max: number = 49, interval: number = 1000) => {};
 
   return (
     <div className="flex flex-col items-center md:justify-center md:items-start">

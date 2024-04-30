@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import { FC } from "react";
 import { Navlinks } from "./BasicComponents/Navlinks";
 import {
   BarChart2,

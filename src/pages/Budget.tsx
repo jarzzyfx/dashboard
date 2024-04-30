@@ -1,5 +1,5 @@
-import React, { FC } from "react";
-import { Link, NavLink, Outlet } from "react-router-dom";
+import { FC } from "react";
+import { NavLink, Outlet } from "react-router-dom";
 import { Category } from "../components";
 import { Ellipsis } from "lucide-react";
 
