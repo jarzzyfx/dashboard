@@ -16,7 +16,7 @@ export const Category: FC<CategoryProps> = ({
   img,
 }) => {
   return (
-    <div className="flex items-center gap-8 p-2 rounded-sm w-full justify-between cursor-pointer hover:bg-[#7074800e]">
+    <div className="flex items-center gap-32 p-2 rounded-sm w-full justify-between cursor-pointer hover:bg-[#7074800e]">
       <div className="flex items-center gap-8">
         <img src={img} alt="" />
         <aside className="flex h-full flex-col justify-between gap-2 text-sm">
